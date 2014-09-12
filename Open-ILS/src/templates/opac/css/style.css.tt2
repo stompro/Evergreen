@@ -358,6 +358,10 @@ for now until a better color is picked - if needed.
      display: none;
 }
 
+#mobile_acct_search_links {
+      background: [% css_colors.primary_fade %];
+}
+
 .rdetail_header {
     padding: 5px 7px 6px 0px;
     margin-left: 1em;
@@ -1700,6 +1704,10 @@ a.preflib_change {
     font-size: [% css_fonts.size_bigger %];
 }
 
+.mobile_view {
+   display:none;
+}
+
 @media only screen and (max-width: 800px) {
     .facet_sidebar_hidden, .result_block_hidden {
         display: none;
@@ -2032,6 +2040,15 @@ a.preflib_change {
         table#acct_holds_main_header td:nth-of-type(8):before { content: "[% l('Active') %]"; }
         table#acct_holds_main_header td:nth-of-type(9):before { content: "[% l('Status') %]"; }
         table#acct_holds_main_header td.hold_notes:before { content: "[% l('Notes') %]"; }
+
+       /*Want to see these in mobile ONLY */
+       .mobile_view{
+          display:block;
+       }
+
+       .mobile_search_lbl_clr{
+          color:[% css_colors.mobile_header_text %];
+       }
 }
 
 

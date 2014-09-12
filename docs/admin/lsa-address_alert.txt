@@ -81,6 +81,7 @@ Staff View of Address Alerts
 When an Address Alert is triggered by a matching address the staff will see the address block highlighted with a red dashed line, along with an *"Address Alert"* block which contains the alert message.
 
 Here is an example of what staff would see.
+
 image::media/lsa-address_alert_staff_view.png[Address Alert Staff View] 
 
 Regular Expressions / Wildcards
